@@ -15,7 +15,9 @@
         <!-- CSS -->
         <link rel="stylesheet" type = "text/css" href="css/bootstrap.min.css">        
         <!-- Font-Awesome -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">        
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
+        <!-- Animate CSS -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="stylesheet" type="text/css" href="css/style.css"> 
         <!-- Bx slider CSS -->
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
@@ -73,8 +75,8 @@
                                 <p>Software Developer</p>
                             <div class="header-btns">
                                 <!--Header Buttons-->
-                                <a class="btn btn-download btn-custom" href="#">Download</a>
-                                <a class="btn btn-tour btn-custom" href="#">Take a Tour
+                                <a class="btn btn-download wow fadeInLeft btn-custom" href="#">Download</a>
+                                <a class="btn btn-tour wow fadeInRight btn-custom" href="#">Take a Tour
                                 <i class="fa fa-angle-down"></i>
                                 </a>
                                 
@@ -109,12 +111,12 @@
                     <div class="row">
                         <div class="col-md-5">
                             <!-- About tree -->
-                            <div class="about-me">
+                            <div class="about-me wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                                 <img src="images/wallpaper.jpg" alt="family_pic">
                             </div>
                         </div>
                         <div>
-                            <div class="col-md-6 col-md-offset-1">
+                            <div class="col-md-6 col-md-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                                 <!-- Why choose us title-->
                                 <div class="choose-us-title">
                                     <h2>About Me</h2>
@@ -123,15 +125,15 @@
                                 <!-- Why Choose us description -->
                                 <div class="choose-us-description">
                                     <!-- choose us item 1 -->
-                                    <div class="choose-us-item">
+                                    <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                         <!--choose us item icon -->
                                         <div><i class="fa fa-desktop"></i></div>
                                         <!-- choose us item title & description-->
                                             <h3>Industry Standard Technologies</h3>
-                                            <p>I build BDD test automation frameworks, utilizing Selenium, REST-Assured, Appium and Cucumber. Well versed in object oriented programming (Java), REST/SOAP, NodeJS, IBM Cloud, Android/iOS, and web design.</p>
+                                            <p>I build Behavior Driven automation frameworks, utilizing Selenium, REST-Assured, Appium and Cucumber. Well versed in object oriented programming (Java), REST/SOAP, NodeJS, IBM Cloud, Android/iOS, and web design.</p>
                                     </div>
                                     <!-- choose us item 2 -->
-                                    <div class="choose-us-item">
+                                    <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.5s">
                                         <!--choose us item icon -->
                                         <div><i class="fa fa-sitemap"></i></div>
                                         <!-- choose us item title & description-->
@@ -139,7 +141,7 @@
                                             <p>I have years of experience, performing in an Agile environment with Atlassian, VersionOne, Rally, Jenkins, and GitHub.</p>
                                     </div>
                                     <!-- choose us item 3 -->
-                                    <div class="choose-us-item">
+                                    <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.5s">
                                         <!--choose us item icon -->
                                         <div><i class="fa fa-industry"></i></div>
                                         <!-- choose us item title & description-->
@@ -158,7 +160,7 @@
             <div class="testimonial-overlay">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 wow bounceInDown">
                             <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
                                 <!-- indicators -->
                                 <ol class="carousel-indicators">
@@ -218,7 +220,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <div class="section-title">
+                        <div class="section-title wow fadeIn" data-wow-duration="1s">
                             <h2> Software Features</h2>
                             <p>This section describes some of the features my products offer.</p>
                         </div>
@@ -228,7 +230,7 @@
             <div class="features-inner-wrapper">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
                             <!-- left feature item 01 -->
                             <div class="left-feature-item">
                                 <!--icon -->
@@ -262,10 +264,10 @@
                         </div>
                         <div class="col-md-4">
                             <div class="feature-automation">
-                                <img src="images/automation.jpg" alt="feature iphone">
+                                <img class="wow bounceIn" data-wow-duration="1s" src="images/automation.jpg" alt="feature iphone">
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
                             <!-- right feature item 01 -->
                             <div class="right-feature-item">
                                 <!-- Icon -->
@@ -304,7 +306,7 @@
         <!-- Purchase Now -->
         <section class="purchase-now" id="BUSINESS">
             <div class="container">
-                <div class="row">
+                <div class="row wow fadeInLeftBig" data-wow-duration="1s">
                     <div class="col-md-9">
                         <p>Maybe this could be the start of something new... Perhaps a business, where 
                         I can offer these services for a reasonable fee. If you think that is a good idea too,
@@ -330,7 +332,7 @@
                     </div>
                 </div>
             </div>
-            <div class="screen-slider">
+            <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
                 <div class="container">
                     <div class="row">
                         <div class="bxslider">
@@ -366,7 +368,7 @@
         <!-- Counters -->
         <section class="counter">
             <div class="counter-overlay">
-                <div class = "container">
+                <div class = "container wow bounceInLeft" data-wow-duration="1s">
                     <div class="row text-center">
                         <div class="col-md-3">
                             <div class="counter-item">
@@ -414,7 +416,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-3">
+                    <div class="col-md-8 col-md-offset-3 wow fadeInUp" data-wow-duration="1s">
                         <img src="images/Java.png" alt="download screen">
                     </div>
                 </div>
@@ -422,7 +424,7 @@
         </section>
         <!--Available On -->
         <section class="available-on">
-            <div class="container">
+            <div class="container wow bounceInRight" data-wow-duration="1s">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="available-title">
@@ -469,7 +471,7 @@
         </section>
         <!--Contact Us -->
         <section class="contact-us" id="CONTACT">
-            <div class="container">
+            <div class="container wow bounceIn">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="section-title">
@@ -479,7 +481,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contact-us-form">
+            <div class="contact-us-form wow bounceIn">
                 <div class="container">
                     <form role="form">
                         <div class="row">
@@ -498,7 +500,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow bounceInLeft">
                         <div class="social-icons">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -535,6 +537,8 @@
         <!--Add Js Counter lib -->
         <script src="js/jquery.waypoints.min.js"></script>
         <script src="js/jquery.counterup.min.js"></script>
+        <!-- Add wow js -->
+        <script src="js/wow.min.js"></script>
         <!-- Custom Js -->
         <script src="js/custom.js"></script>
     </body>
