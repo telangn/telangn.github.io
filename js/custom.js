@@ -1,6 +1,6 @@
 /* Show and hide menu */
 /*jslint browser: true*/
-/*global $, document, location, window, setInterval */
+/*global $, document, location, window, setInterval, WOW */
 
 /*$(document).ready(function(){*/
     $(function(){
@@ -164,5 +164,11 @@
             
         });
         
+    });
+        
+    //Add animation / Initialize WOW
+    $(document).ready(function() {
+       'use strict';
+        new WOW().init();
     });
 });
