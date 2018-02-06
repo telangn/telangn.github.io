@@ -12,7 +12,7 @@ p{
     font-size: 14px;
 }
 
-/* ======= Generic CSS ======*/
+/* ======= Generic CSS =================*/
 
 .section-title{
     padding-top: 90px;
@@ -49,7 +49,8 @@ p{
     margin-left: -30px;
 }
 
-/* ===== Navigation ====== */
+/* ===== Navigation =================== */
+
 .navbar-default{
     background-color: transparent;
     border-color: #444;
@@ -91,7 +92,7 @@ p{
     color: #129CF3;
 }
 
-/* ===== Header ====== */
+/* ===== Header =========================== */
 
 .header{
     background-image: url("../images/buddha.jpg");
@@ -174,7 +175,9 @@ p{
     padding-bottom: 50px;
     padding-top:10px;
 }
-/* ========= About Us =====*/
+
+/* ========= About Us ============================*/
+
 .choose-us-wraper{
     padding-top: 50px;
     padding-bottom: 60px;
@@ -241,7 +244,7 @@ p{
     font-size: 15px;
 }
 
-/* =============== Testimonial =========*/
+/* =============== Testimonial =====================*/
 
 .testimonial{
     background-image: url("../images/snow-mountains-forest-winter.jpg");
@@ -291,7 +294,7 @@ p{
     padding-top: 50px;
 }
 
-/* ========== Features =============*/
+/* ========== Features =========================*/
 
 .features-inner-wrapper{
     padding-top: 30px;
@@ -362,7 +365,8 @@ p{
     line-height: 28px;
 }
 
-/* ========== Contact Me =====*/
+/* ========== Contact Me ====================*/
+
 .purchase-now{
     background-color: #455C7B;
     padding-top: 100px;
@@ -394,7 +398,7 @@ p{
     border-color: #FFBC67;
 }
 
-/*========== Counters ======*/
+/*========== Counters =============================*/
 
 .counter{
     background-image: url("../images/snow-mountains-forest-winter.jpg");
@@ -433,9 +437,10 @@ p{
     font-family: "Amatic+SC", sans-serif;
 }
 
-/*======Download Now ======*/
+/*======Download Now =================================*/
+
 .download-now img{
-    width: 60%;
+    width: 76%;
     padding-bottom: 30px;
     padding-top: -40px;
  
@@ -508,7 +513,8 @@ p{
     opacity: 1;
 }
 
-/*===========Contact Us =======*/
+/*===========Contact Us ==============================*/
+
 .contact-us-form .form-control{
     display: block;
     width: 100%;
@@ -595,7 +601,7 @@ p{
     font-size: 20px;
 }
 
-/*============ Footer =============*/
+/*============ Footer ==================================*/
 
 .footer{
     background-color: #1a1a1a;
@@ -629,3 +635,10 @@ p{
     color: #fff;
     font-size: 25px;
 }
+
+/* ====== DropDown ====== */
+
+.dropdown-menu{
+    background-color: #458985;
+}
+
